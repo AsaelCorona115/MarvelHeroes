@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Heroes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="title-Header">
+        <h1>Hero Search</h1>
+    </header>
+
+    <div class="main-Search">
+        <form class="hero-search">
+            <input type="text" placeholder="Who's your favorite hero?" name='hero'>
+            <input type="submit" class="submit">
+        </form>
+    </div>
+
+
+    <div class="results invisible">
+        <h1 class="favorite-Character"></h1>
+        <img src="https://via.placeholder.com/300x300" alt="">
+        <p class="heroDescription"></p>
+    </div>
+
+
+
+    
+    <script src="md5.js"></script>
+    <script src="heroes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
